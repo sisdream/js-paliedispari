@@ -5,9 +5,9 @@ const pariDispari = prompt("Scegli pari o dispari?");
 let scelta = "";
 
 //do un valore a "pari" o "dispari"
-    if(pariDispari === "pari"){
+if(pariDispari === "pari"){
         scelta = true;
-    }else(pariDispari === "dispari"){
+}else if(pariDispari === "dispari"){
         scelta = false;
-    }
+}
     
