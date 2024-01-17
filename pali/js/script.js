@@ -12,6 +12,16 @@ console.log(parolaPal);
 // il programma controlla se la parola è polindroma o no
 
 function parolePalindrome (string){
-  
+    // trova la lunghezza di una stringa
+    const len = string.length;
+        // passo attraverso meta della stringa
+        for (let i = 0; i < len / 2; i++) {
+
+            // controllo se la prima meta della stringa è uguale alla seconda metà
+            if (string[i] !== string[len - 1 - i]) {
+                return 'non è palindroma';
+            }
+        }
+        return 'è palindroma';
 }
 
