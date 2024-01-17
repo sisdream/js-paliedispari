@@ -1,12 +1,17 @@
-/* Chiedere all’utente di inserire una parola
-Creare una funzione per capire se la parola inserita è palindroma.
- */
-
 // chiedo di inserire una parola 
-const parole = prompt("Inserisci una parola");
-
+let parole = prompt("Inserisci una parola");
+// const wordUser = [prompt("Inserisci una parola")]
 
 // tramite la funzione controllo se la parola è palindroma
-const parolaPal = parolePalindrome(parole);
+let parolaPal = parolePalindrome(parole);
+// const checkPal = checkPalindrome(wordUser);
 
+console.log(parolaPal);
+
+//funzioni utili 
+// il programma controlla se la parola è polindroma o no
+
+function parolePalindrome (string){
+  
+}
 
