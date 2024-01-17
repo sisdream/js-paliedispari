@@ -11,3 +11,12 @@ if(pariDispari === "pari"){
         scelta = false;
 }
     
+// l'utente inserisce un numero da 1 a 5
+const numUser = parseInt(prompt("scegli un numero da 1 a 5"));
+
+// genero un numero random da 1 a 5
+let numPc = genNumbRandom(1, 5);
+
+// sommo i numeri
+let somma = numUser + numPc;  
+    
